@@ -1,5 +1,5 @@
-# Artic-rabv
-Repository of material for rabies virus genomic surveillance using MinION sequencing (forked and modified from [artic-base](https://github.com/artic-network/artic-base) and the latest conda environment from artic-ncov2019
+# artic-rabv_OIRSA
+Repository of material for rabies virus genomic surveillance using MinION sequencing (forked and modified from [artic-rabv](https://github.com/kirstyn/artic-rabv) which is forked and modified from [artic-base](https://github.com/artic-network/artic-base) and the latest conda environment from artic-ncov2019.
 Includes resources and datasets used in publication:
 Brunker K, Jaswant G, Thumbi SM et al. Rapid in-country sequencing of whole virus genomes to inform rabies elimination programmes [version 1; peer review: awaiting peer review]. Wellcome Open Res 2020, 5:3 (https://doi.org/10.12688/wellcomeopenres.15518.1)
 
@@ -16,7 +16,7 @@ conda install mamba -n base -c conda-forge
 * Create conda environment to install tools (using mamba). Modify the filepath after -f to reflect where you have installed artic-rabv on your computer.
 * This will take a few minutes
 ```bash
-mamba env create -f artic-rabv/environment.yml
+mamba env create -f artic-rabv_OIRSA/environment.yml
 ``` 
 
 * Use this command to activate your environment  
