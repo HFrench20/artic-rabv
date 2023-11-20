@@ -25,7 +25,6 @@ Contains ***materials, scripts and instructions*** for regional genomic surveill
 Resources and datasets used in publication:
 Brunker K, Jaswant G, Thumbi SM et al. Rapid in-country sequencing of whole virus genomes to inform rabies elimination programmes [version 1; peer review: awaiting peer review]. Wellcome Open Res 2020, 5:3 (https://doi.org/10.12688/wellcomeopenres.15518.1)
 
-Includes canine rabies primer schemes for various locations.
 
 # To install: 
 * Install the GitHub repository:  
@@ -56,20 +55,20 @@ conda env update --file artic-rabv/environment.yml
 Multiplex primer schemes for rabies virus whole genome sequencing, designed using Primal Scheme (http://primal.zibraproject.org/)  
 
 #### OIRSA primer schemes
-`VBRV_PS.4.2` = vampire bat rabies Central America Costa Rica ref
+`VBRV_PS.4.2` = vampire bat rabies Central America (Costa Rica ref, 2021)
 
-`VBRV_PS.4.3` = vampire bat rabies Central America Costa Rica ref (modified)
+`VBRV_PS.4.3` = vampire bat rabies Central America (Costa Rica ref, 2021) (manually modified)
 
-`VBRV_PS.8.1` = vampire bat rabies Central America 'northern strains'
+`VBRV_PS.8.1` = vampire bat rabies Central America 'northern strains' (2023)
 
 #### Original artic-rabv primer schemes
-`rabvTanzDg` = primers designed to target Tanzanian rabies virus (2016)
+`rabvTanzDg` = canine rabies Tanzania (2016)
 
-`rabv_ea` = updated primers for East Africa rabies virus lineages (2018)
+`rabv_ea` = canine rabies East Africa (2018) (updated)
 
-`rabvSEasia` = primers designed to target SE Asia lineages of rabies virus  
+`rabvSEasia` = canine rabies SE Asia  
 
-`rabvPeru2` = primers designed to target lineages of rabies virus in Puno/Arequipa, Peru
+`rabvPeru2` = canine rabies Puno/Arequipa, Peru
 
 # Protocols  
 Full "sample-sequence-interpretation" protocol for rapid sequencing of rabies virus samples on the Nanopore MinION platform available with instructional videos on [JoVE](https://www.jove.com/t/65414/whole-genome-sequencing-for-rapid-characterization-rabies-virus-using) from Bautista et al., 2023 (doi: 10.3791/65414)
